@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CC66CFD22775249400B9E1E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66CFD12775249400B9E1E7 /* AppDelegate.swift */; };
 		CC66CFD42775249400B9E1E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66CFD32775249400B9E1E7 /* SceneDelegate.swift */; };
-		CC66CFD62775249400B9E1E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66CFD52775249400B9E1E7 /* ViewController.swift */; };
 		CC66CFD92775249400B9E1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC66CFD72775249400B9E1E7 /* Main.storyboard */; };
 		CC66CFDC2775249400B9E1E7 /* getPeople.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC66CFDA2775249400B9E1E7 /* getPeople.xcdatamodeld */; };
 		CC66CFDE2775249700B9E1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC66CFDD2775249700B9E1E7 /* Assets.xcassets */; };
@@ -17,6 +16,13 @@
 		CC66CFEC2775249700B9E1E7 /* getPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66CFEB2775249700B9E1E7 /* getPeopleTests.swift */; };
 		CC66CFF62775249700B9E1E7 /* getPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66CFF52775249700B9E1E7 /* getPeopleUITests.swift */; };
 		CC66CFF82775249700B9E1E7 /* getPeopleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66CFF72775249700B9E1E7 /* getPeopleUITestsLaunchTests.swift */; };
+		CC66D006277524C100B9E1E7 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66D005277524C100B9E1E7 /* People.swift */; };
+		CC66D0082775254C00B9E1E7 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66D0072775254C00B9E1E7 /* PeopleTableViewController.swift */; };
+		CC66D00A277529CD00B9E1E7 /* FilmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66D009277529CD00B9E1E7 /* FilmsTableViewController.swift */; };
+		CC66D00C277534C300B9E1E7 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66D00B277534C300B9E1E7 /* Film.swift */; };
+		CC66D00E2775C5C600B9E1E7 /* FilmApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66D00D2775C5C600B9E1E7 /* FilmApi.swift */; };
+		CCBADF23277742B600579475 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBADF22277742B600579475 /* PersonViewController.swift */; };
+		CCBADF252777440C00579475 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBADF242777440C00579475 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		CC66CFCE2775249400B9E1E7 /* getPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC66CFD12775249400B9E1E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC66CFD32775249400B9E1E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC66CFD52775249400B9E1E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC66CFD82775249400B9E1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC66CFDB2775249400B9E1E7 /* getPeople.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = getPeople.xcdatamodel; sourceTree = "<group>"; };
 		CC66CFDD2775249700B9E1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		CC66CFF12775249700B9E1E7 /* getPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC66CFF52775249700B9E1E7 /* getPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getPeopleUITests.swift; sourceTree = "<group>"; };
 		CC66CFF72775249700B9E1E7 /* getPeopleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getPeopleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC66D005277524C100B9E1E7 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		CC66D0072775254C00B9E1E7 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		CC66D009277529CD00B9E1E7 /* FilmsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsTableViewController.swift; sourceTree = "<group>"; };
+		CC66D00B277534C300B9E1E7 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		CC66D00D2775C5C600B9E1E7 /* FilmApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmApi.swift; sourceTree = "<group>"; };
+		CCBADF22277742B600579475 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		CCBADF242777440C00579475 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +113,10 @@
 		CC66CFD02775249400B9E1E7 /* getPeople */ = {
 			isa = PBXGroup;
 			children = (
+				CCBADF212777426500579475 /* controller */,
+				CC66D004277524B100B9E1E7 /* model */,
 				CC66CFD12775249400B9E1E7 /* AppDelegate.swift */,
 				CC66CFD32775249400B9E1E7 /* SceneDelegate.swift */,
-				CC66CFD52775249400B9E1E7 /* ViewController.swift */,
 				CC66CFD72775249400B9E1E7 /* Main.storyboard */,
 				CC66CFDD2775249700B9E1E7 /* Assets.xcassets */,
 				CC66CFDF2775249700B9E1E7 /* LaunchScreen.storyboard */,
@@ -128,6 +141,27 @@
 				CC66CFF72775249700B9E1E7 /* getPeopleUITestsLaunchTests.swift */,
 			);
 			path = getPeopleUITests;
+			sourceTree = "<group>";
+		};
+		CC66D004277524B100B9E1E7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CC66D005277524C100B9E1E7 /* People.swift */,
+				CC66D00B277534C300B9E1E7 /* Film.swift */,
+				CC66D00D2775C5C600B9E1E7 /* FilmApi.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CCBADF212777426500579475 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC66D0072775254C00B9E1E7 /* PeopleTableViewController.swift */,
+				CC66D009277529CD00B9E1E7 /* FilmsTableViewController.swift */,
+				CCBADF22277742B600579475 /* PersonViewController.swift */,
+				CCBADF242777440C00579475 /* Person.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC66CFD62775249400B9E1E7 /* ViewController.swift in Sources */,
+				CCBADF252777440C00579475 /* Person.swift in Sources */,
 				CC66CFD22775249400B9E1E7 /* AppDelegate.swift in Sources */,
 				CC66CFD42775249400B9E1E7 /* SceneDelegate.swift in Sources */,
+				CC66D00E2775C5C600B9E1E7 /* FilmApi.swift in Sources */,
 				CC66CFDC2775249400B9E1E7 /* getPeople.xcdatamodeld in Sources */,
+				CC66D00A277529CD00B9E1E7 /* FilmsTableViewController.swift in Sources */,
+				CC66D006277524C100B9E1E7 /* People.swift in Sources */,
+				CC66D0082775254C00B9E1E7 /* PeopleTableViewController.swift in Sources */,
+				CCBADF23277742B600579475 /* PersonViewController.swift in Sources */,
+				CC66D00C277534C300B9E1E7 /* Film.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
