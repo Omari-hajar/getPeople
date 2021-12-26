@@ -10,6 +10,8 @@ import UIKit
 class FilmsTableViewController: UITableViewController {
     var result: [Movies] = []
     let urlString = "https://swapi.dev/api/films/?format=json"
+    
+    var film: Movies?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +55,11 @@ class FilmsTableViewController: UITableViewController {
         return cell
     }
     
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        film = result[indexPath.row]
+        print(film)
+    }
 
     
     

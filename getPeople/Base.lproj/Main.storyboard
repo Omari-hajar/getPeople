@@ -125,6 +125,21 @@
             </objects>
             <point key="canvasLocation" x="3357.971014492754" y="113.83928571428571"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="tyD-b5-Q51">
+            <objects>
+                <viewController id="Vxy-iR-kRk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CmE-FK-VQL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="FxL-Hp-UU9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7X1-XO-qDl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2520" y="146"/>
+        </scene>
         <!--Films Table View Controller-->
         <scene sceneID="kZe-2o-yRh">
             <objects>
@@ -149,6 +164,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="bIz-yJ-j4h"/>
+                    <connections>
+                        <segue destination="Vxy-iR-kRk" kind="presentation" id="DWQ-ac-xDv"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W3q-fQ-3IX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
